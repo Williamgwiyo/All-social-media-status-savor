@@ -102,6 +102,72 @@
             </RelativeLayout>
         </androidx.cardview.widget.CardView>
 
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="5dp"
+            android:weightSum="2">
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:elevation="3dp"
+                android:layout_weight="1"
+                app:cardCornerRadius="8dp"
+                android:layout_margin="5dp">
+                <RelativeLayout
+                    android:id="@+id/RLHelix"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/helix"
+                        android:layout_margin="10dp"
+                        android:scaleType="centerCrop" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Helix"
+                        android:textColor="@color/white"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true" />
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:elevation="3dp"
+                android:layout_weight="1"
+                app:cardCornerRadius="8dp"
+                android:layout_margin="5dp">
+                <RelativeLayout
+                    android:id="@+id/RL2048"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/icon_2048"
+                        android:layout_margin="10dp"
+                        android:scaleType="centerCrop" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="2048"
+                        android:textColor="@color/white"
+                        android:layout_centerHorizontal="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginBottom="20dp"/>
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+
         </LinearLayout>
 
 
